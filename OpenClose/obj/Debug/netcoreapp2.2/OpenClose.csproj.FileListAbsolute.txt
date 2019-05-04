@@ -1,0 +1,11 @@
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\obj\Debug\netcoreapp2.2\OpenClose.csprojAssemblyReference.cache
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\obj\Debug\netcoreapp2.2\OpenClose.csproj.CoreCompileInputs.cache
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\obj\Debug\netcoreapp2.2\OpenClose.AssemblyInfoInputs.cache
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\obj\Debug\netcoreapp2.2\OpenClose.AssemblyInfo.cs
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\bin\Debug\netcoreapp2.2\OpenClose.deps.json
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\bin\Debug\netcoreapp2.2\OpenClose.runtimeconfig.json
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\bin\Debug\netcoreapp2.2\OpenClose.runtimeconfig.dev.json
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\bin\Debug\netcoreapp2.2\OpenClose.dll
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\bin\Debug\netcoreapp2.2\OpenClose.pdb
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\obj\Debug\netcoreapp2.2\OpenClose.dll
+C:\Git\CSharp\SimpleIsNotEasy\OpenClose\obj\Debug\netcoreapp2.2\OpenClose.pdb
