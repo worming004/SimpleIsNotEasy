@@ -17,7 +17,7 @@ namespace SingleResponsibility
 			var provider = new ServiceCollection()
 				.AddTransient<IReader, Reader>()
 				.AddTransient<IWritter, Writter>()
-				.AddTransient<IReadAndWrite, ReadWriteTemplate>()
+				.AddTransient<IReadAndWrite, ReadWriteComposition>()
 				.BuildServiceProvider();
             return provider;
 		}
