@@ -31,7 +31,7 @@ namespace Functions
 			}
 		}
 
-		private void writeInConsole(string text)
+		protected virtual void writeInConsole(string text)
 		{
 			System.Console.WriteLine(text);
 		}
