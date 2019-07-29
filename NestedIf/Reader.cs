@@ -14,7 +14,7 @@ namespace NestedIf
 		{
 			if (!string.IsNullOrEmpty(input))
 			{
-				if (!input.Contains("NotExpectedString"))
+				if (!input.Contains("NotExpectedString", StringComparison.InvariantCultureIgnoreCase))
 				{
 					if (input.Length > 3)
 					{
@@ -44,7 +44,7 @@ namespace NestedIf
 			if (string.IsNullOrEmpty(input))
 				throw new ArgumentNullException(input);
 
-			if (input.Contains("NotExpectedString"))
+			if (input.Contains("NotExpectedString", StringComparison.InvariantCultureIgnoreCase))
 				throw new ArgumentException($"Not well formatted argument: {input}");
 
 			if (input.Length <= 3)
