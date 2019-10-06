@@ -1,10 +1,10 @@
 namespace SingleResponsibility
 {
-	public class Reader : IReader
-	{
-		public string Read()
-		{
-			return System.Console.ReadLine();
-		}
-	}
+    public class Reader : IReader
+    {
+        public string Read()
+        {
+            return System.Console.ReadLine();
+        }
+    }
 }

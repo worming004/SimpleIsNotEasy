@@ -12,14 +12,14 @@ let decodedSentence = decode(sentence);
 console.log(decodedSentence);
 
 
-let removeBalise = (word) => word.replace('&#', '');
+let removeSpecialChars = (word) => word.replace('&#', '');
 let toInt = (word) => parseInt(word, 10);
 let toAscii = (integer) => String.fromCharCode(integer);
 
 function decodeReadable(sentence) {
     return sentence
         .split(';')
-        .map(removeBalise)
+        .map(removeSpecialChars)
         .map(toInt)
         .map(toAscii)
         .join('');

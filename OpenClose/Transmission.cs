@@ -1,12 +1,16 @@
-namespace OpenClose {
-    internal class DefaultTransmission : ISpeedUp {
+namespace OpenClose
+{
+    internal class DefaultTransmission : ISpeedUp
+    {
         internal DefaultMotor Motor { get; }
 
-        internal DefaultTransmission (DefaultMotor motor) {
+        internal DefaultTransmission(DefaultMotor motor)
+        {
             Motor = motor;
         }
-        public int SpeedUp () {
-            return Motor.SpeedUp ();
+        public int SpeedUp()
+        {
+            return Motor.SpeedUp();
         }
     }
 }

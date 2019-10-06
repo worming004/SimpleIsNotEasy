@@ -1,5 +1,7 @@
-namespace OpenClose {
-    internal interface ISpeedUp {
-        int SpeedUp ();
+namespace OpenClose
+{
+    internal interface ISpeedUp
+    {
+        int SpeedUp();
     }
 }

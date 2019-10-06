@@ -1,6 +1,6 @@
 interface ItemRepository {
-    get(id: number) : Item;
-    save (item: Item);
+    get(id: number): Item;
+    save(item: Item);
 }
 
 interface Item {
