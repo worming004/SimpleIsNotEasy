@@ -47,21 +47,22 @@ const (
 )
 
 type insurance struct {
-	Firstname, Lastname string
-	InsuranceType       insuranceType
+	Firstname     string
+	Lastname      string
+	InsuranceType insuranceType
 }
 
-type insuranceWriter struct {
-	writer io.Writer
-}
-
-func newInsuranceWriter(w io.Writer) insuranceWriter {
-	return insuranceWriter{
+func newInsuranceWriter(w io.Writer) insuranceCsvWriter {
+	return insuranceCsvWriter{
 		writer: w,
 	}
 }
 
-func (w insuranceWriter) Write(i insurance) {
+type insuranceCsvWriter struct {
+	writer io.Writer
+}
+
+func (w insuranceCsvWriter) Write(i insurance) {
 	msg := fmt.Sprintf("%s;%s;%d;\n", i.Firstname, i.Lastname, i.InsuranceType)
 	w.writer.Write([]byte(msg))
 }
