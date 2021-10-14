@@ -1,5 +1,7 @@
-namespace Liskov {
-    public interface ISave {
+namespace Liskov
+{
+    public interface ISave
+    {
         void SavePerson(Person p);
     }
 }
