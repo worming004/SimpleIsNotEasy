@@ -6,7 +6,7 @@ namespace OpenClose
 
         public void MoveWithCommand(IOpenCommand command)
         {
-            this.pos = command(pos);
+            this.pos = command.Move(pos);
         }
     }
 }

@@ -6,7 +6,8 @@ namespace OpenClose
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var avatar = new CloseAvatar();
+            avatar.Move(CloseCommand.Left);
         }
     }
 }
