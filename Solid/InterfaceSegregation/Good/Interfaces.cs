@@ -1,12 +1,5 @@
 namespace InterfaceSegregation
 {
-    public interface IMegaPrinter
-    {
-        void Print();
-        byte[] Scan();
-    }
-
-    // new with interface segregation
     public interface IPrint
     {
         void Print();
