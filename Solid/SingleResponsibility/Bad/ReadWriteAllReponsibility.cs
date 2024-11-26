@@ -2,7 +2,7 @@ using System;
 
 namespace SingleResponsibility
 {
-    public class AllTheLogic : IReadAndWrite
+    public class AllTheLogic 
     {
         public void ReadAndWrite()
         {
