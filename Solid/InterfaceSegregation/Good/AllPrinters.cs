@@ -1,6 +1,6 @@
 namespace InterfaceSegregation
 {
-    public class PrinterCompose : IComposedPrinter
+    public class PrinterCompose : IMegaPrinter
     {
         private IPrint _printer;
         private IScan _scanner;
@@ -19,7 +19,7 @@ namespace InterfaceSegregation
         public byte[] Scan()
         {
             // Scan
-            return new byte[]{};
+            return new byte[] { };
         }
     }
 
@@ -36,7 +36,7 @@ namespace InterfaceSegregation
         public byte[] Scan()
         {
             // Scan
-            return new byte[]{};
+            return new byte[] { };
         }
     }
 }

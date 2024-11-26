@@ -2,8 +2,9 @@ namespace InterfaceSegregation
 {
     public class Bag
     {
-        public IScan scanner;
-        public Bag(IScan scanner)
+        public IMegaPrinter scanner;
+
+        public Bag(IMegaPrinter scanner)
         {
             this.scanner = scanner;
         }

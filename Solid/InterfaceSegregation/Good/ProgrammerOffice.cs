@@ -2,9 +2,9 @@ namespace InterfaceSegregation
 {
     public class ProgrammerOffice
     {
-        private IComposedPrinter printer;
+        private IMegaPrinter printer;
 
-        public ProgrammerOffice(IComposedPrinter printer)
+        public ProgrammerOffice(IMegaPrinter printer)
         {
             this.printer = printer;
         }

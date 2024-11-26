@@ -8,5 +8,5 @@ namespace InterfaceSegregation
     {
         byte[] Scan();
     }
-    public interface IComposedPrinter : IPrint, IScan { }
+    public interface IMegaPrinter : IPrint, IScan { }
 }
