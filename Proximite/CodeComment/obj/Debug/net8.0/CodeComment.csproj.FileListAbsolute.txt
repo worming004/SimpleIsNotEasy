@@ -1,0 +1,15 @@
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/bin/Debug/net8.0/CodeComment
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/bin/Debug/net8.0/CodeComment.deps.json
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/bin/Debug/net8.0/CodeComment.runtimeconfig.json
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/bin/Debug/net8.0/CodeComment.dll
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/bin/Debug/net8.0/CodeComment.pdb
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/CodeComment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/CodeComment.AssemblyInfoInputs.cache
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/CodeComment.AssemblyInfo.cs
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/CodeComment.csproj.CoreCompileInputs.cache
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/CodeComment.sourcelink.json
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/CodeComment.dll
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/refint/CodeComment.dll
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/CodeComment.pdb
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/CodeComment.genruntimeconfig.cache
+/Users/mathieuscolas/git/talks/SimpleIsNotEasy/Proximite/CodeComment/obj/Debug/net8.0/ref/CodeComment.dll
