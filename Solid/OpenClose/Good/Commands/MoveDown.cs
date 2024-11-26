@@ -6,8 +6,8 @@ namespace OpenClose.Commands
         {
             return new Position
             {
-                x = pos.x,
-                y = pos.y - 1
+                X = pos.X,
+                Y = pos.Y - 1
             };
         }
     }

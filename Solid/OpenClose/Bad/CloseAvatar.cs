@@ -14,10 +14,13 @@ namespace OpenClose
             switch (command)
             {
                 case CloseCommand.Left:
-                    this.pos.x--;
+                    this.pos.X--;
+                    break;
                 case CloseCommand.Right:
-                    this.pos.x++;
+                    this.pos.X++;
+                    break;
                 default:
+                    break;
             }
         }
     }

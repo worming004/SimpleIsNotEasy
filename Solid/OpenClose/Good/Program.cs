@@ -1,4 +1,4 @@
-﻿using System;
+﻿using OpenClose.Commands;
 
 namespace OpenClose
 {
@@ -11,23 +11,17 @@ namespace OpenClose
 
             avatar.MoveWithCommand(
                 new TeleportTo(
-                    new Position { x = 2, y = 5 }
+                    new Position { X = 2, Y = 5 }
                 )
             );
         }
     }
 
-    // Implemente une nouvelle façon de se déplacer
-    public class TeleportTo : IOpenCommand
+    class PositionPrinter
     {
-        private Position _position;
-        public TeleportTo(Position pos)
+        public void Print(Position p)
         {
-            _position = pos;
-        }
-        public Position Move(Position _)
-        {
-            return _position;
+            System.Console.WriteLine($"x: {p.X}, y: {p.Y}");
         }
     }
 }

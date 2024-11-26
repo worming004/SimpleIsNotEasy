@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OpenClose
+﻿namespace OpenClose
 {
     class Program
     {
